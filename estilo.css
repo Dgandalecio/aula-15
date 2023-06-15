@@ -1,0 +1,179 @@
+	@charset "UTF-8";
+
+	body{margin: 0;}
+
+	header{background-image: url("imagem/fundo.png");
+		
+
+	background-attachment: fixed;
+	background-size: cover;
+	}
+
+	.container{max-width: 1000px;
+		height: 430px;
+	    margin: 0 auto;
+	   }
+
+	   .wallpaper{
+	    display: flex;
+	    justify-content: center;
+	    padding: 8px 0;}
+
+	    .wallpaper .text{
+	    margin: 30px;
+	    text-align: center;
+	}
+	#pesquisa{text-align: right;  
+            right: 20px; 
+            color: black;
+           }
+
+
+	.text h1{
+	    font-size: 98px;
+	    font-family: Helvetica;
+	    color: white;
+	    text-shadow: black 6px 2px 1px;
+	}
+
+	.menu{list-style: none;
+				display: flex;					
+				justify-content: lt;
+			background-color: lightblue;
+			margin:0;
+			border:  1.5px solid white;
+			position: fixed; 
+	 		 top: 0;
+	  		width: 100%; 
+		}
+
+		.menu li{
+				margin: 2px 10px;
+			}
+
+
+		.menu li a{
+			display: block;
+			padding: 8px;
+			text-decoration: none;
+			color: seagreen;
+			
+		}
+
+		.menu li a:hover{
+			background-color: lightgreen;
+			color: black;
+
+			}
+
+h2 {font-family: arial;
+	font-size: 30px;
+	text-shadow: 1px 1px 1px lightblue;
+	color: black;
+	text-align: center;
+	background-color: lightblue;
+	padding: 20px;
+	
+}
+
+h3{font-family: arial;
+font-size: 40px;
+text-shadow: 1px 1px 1px white;
+text-align: center;
+background-color: lightblue;
+padding: 30px;
+}
+
+.p p{font-size: 17px;
+width: 32em;
+text-indent: 3px;
+text-align: justify;
+margin-left: 2px;
+}
+
+.foto1 {margin-left: 6em;
+  display: flex;
+ 
+}
+
+.foto1 p {
+  text-align: left;
+}
+
+ .foto1 img{width: 500px;
+			height: auto;
+			margin-left: 3em;
+			border: 1px solid black;
+
+}
+
+
+.foto2	 {margin-left: 6em;
+  display: flex;
+ 
+}
+.foto2 p {
+margin-left: 3em;
+  text-align: justify;
+}
+
+ .foto2 img{width: 490px;
+			height: 240px;
+			border: 1px solid black;
+margin-left: 10px;
+}
+
+.foto3 {margin-left: 6em;
+  display: flex;
+ 
+}
+
+.foto3 p {
+ 
+}
+
+ .foto3 img{width: 500px;
+			height: 150px;
+			margin-left: 2em;
+			border: 1px solid black;
+
+}
+
+.hist p{margin-left: 6em;
+      margin-right: 6em;
+		font-size: 20px;
+		text-align: justify;
+}
+
+.foto4 {display: flex;
+
+}
+
+.foto4 img{ width:90px;
+						height:auto;
+}
+
+.foto4 h4{font-size: 30px;
+					color:white; }
+
+footer{background-color: black;
+padding: 10px;
+}
+
+.redes {
+  display: flex;
+  align-items: center; 
+  margin-left: 37em;
+}
+
+.redes img {
+  width: 40px;
+  height: auto;
+  border-radius: 50%;
+  padding: 10px;
+ transition: transform 0.3s;
+
+}
+.redes img:hover {
+  transform: scale(1.2);
+}

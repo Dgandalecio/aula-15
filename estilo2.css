@@ -1,0 +1,130 @@
+@charset "UTF-8";
+
+body{margin: 0;}
+
+	header{background-image: url("imagem/fundo.png");
+		
+
+	background-attachment: fixed;
+	background-size: cover;
+	}
+
+	.container{max-width: 1000px;
+		height: 430px;
+	    margin: 0 auto;
+	   }
+
+	   .wallpaper{
+	    display: flex;
+	    justify-content: center;
+	    padding: 8px 0;}
+
+	    .wallpaper .text{
+	    margin: 80px;
+	    text-align: center;
+	}
+	#pesquisa{text-align: right;  
+            right: 20px; 
+            color: black;
+            margin-left: 61em;
+           }
+
+.menu{list-style: none;
+				display: flex;					
+				justify-content: lt;
+			background-color: lightgreen;
+			margin:0;
+			border:  1.5px solid white;
+			position: fixed; 
+	 		 top: 0;
+	  		width: 100%; 
+		}
+
+		.menu li{
+				margin: 2px 10px;
+			}
+
+
+		.menu li a{
+			display: block;
+			padding: 8px;
+			text-decoration: none;
+			color: lightcyan;
+			
+		}
+
+		.menu li a:hover{
+			background-color: lightblue;
+			color: black;
+
+			}
+.text h1{
+	    font-size: 98px;
+	    font-family: Helvetica;
+	    color: white;
+	    text-shadow: black 6px 2px 1px;
+	}
+
+	h2 {font-family: arial;
+	font-size: 30px;
+	text-shadow: 1px 1px 1px lightblue;
+	color: black;
+	text-align: center;
+	background-color: lightgreen;
+	padding: 20px;
+	
+}
+
+p{width: 56em;
+	font-size: 18px;
+	text-indent: 5px;
+	margin-left: 4px;
+	text-align: justify;}
+
+
+.foto4 {display: flex;
+
+}
+
+.foto4 img{ width:90px;
+						height:auto;
+}
+
+.foto4 h4{font-size: 30px;
+					color:white; }
+
+footer{background-color: black;
+padding: 10px;
+}
+
+.redes {
+  display: flex;
+  align-items: center; 
+  margin-left: 37em;
+}
+
+.redes img {
+  width: 40px;
+  height: auto;
+  border-radius: 50%;
+  padding: 10px;
+ transition: transform 0.3s;
+
+}
+.redes img:hover {
+  transform: scale(1.2);
+}
+aside {
+    float: right;
+   padding: 20px;
+    width: 220px;
+    margin-right: 25px;
+     flex-direction: column;
+  align-items: center;
+}
+
+aside img{width: 15em;
+	padding-top: 30px;
+	border-radius: 2%;
+
+}
